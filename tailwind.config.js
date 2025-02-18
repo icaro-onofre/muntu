@@ -10,9 +10,10 @@ module.exports = {
             },
         },
         colors: {
-            background: '#FFF9F9',
-            mainRed: '#DF2828',
-            lightRed: '#FFE8E4',
+            background: '#ffffff', 
+            mainYellow: '#333333', 
+			mainBlue:'#40e0d0',
+            lightRed: '#ffd700',
             white: '#FFFFFF',
             blue: '#5863F8',
             yellow: '#ECA72C',
