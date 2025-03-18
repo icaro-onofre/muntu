@@ -752,8 +752,9 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.34):
     dependencies:
       lilconfig: 3.0.0
-      postcss: 8.4.34
       yaml: 2.3.4
+    optionalDependencies:
+      postcss: 8.4.34
 
   postcss-nested@6.0.1(postcss@8.4.34):
     dependencies:

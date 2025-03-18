@@ -1,69 +1,192 @@
 <!doctype html>
 <html class="scroll-smooth">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="./output.css" rel="stylesheet" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Yeseva+One&display=swap"
-		rel="stylesheet" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./output.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Yeseva+One&display=swap"
+			rel="stylesheet" />
 
-</head>
+	</head>
 
-<body class="bg-background grid grid-cols-12 gap-5 overflow-x-hidden ">
-	<navbar class="font-oswald tracking-tighter h-32 col-start-1 col-end-13 flex flex-row items-center justify-around">
-		<div>
-			<img class="xl" src="./assets_folder/muntu_logo.png" alt="logo da muntu" width="400px" />
-		</div>
-		<div class="flex flex-row items-center xl:space-x-48 sm:space-x-7 xl:text-2xl sm:text-sm">
-			<a href="#sobre" class="font-black">Sobre</a>
-			<a href="#localizacao"class="font-black">Localização</a>
-
-			<div class="flex flex-row items-center justify-center space-x-2">
-				<img class="xl" src="./assets_folder/clipboard.svg" alt="Clipboard" width="20px" />
-				<img class="sm" src="./assets_folder/clipboard.svg" alt="Clipboard" width="10px" />
-				<a class="font-black">(11)40393557</a>
-				<a href="https://wa.me/5511994974968">
-					<img class="xl" src="./assets_folder/logos_whatsapp-icon.svg" alt="logo whatsapp icon" width="25px" />
-					<img class="sm" src="./assets_folder/logos_whatsapp-icon.svg" alt="logo whatsapp icon" width="12px" />
-				</a>
+	<body class="bg-background grid grid-cols-12 gap-5 overflow-x-hidden ">
+		<navbar class="font-oswald tracking-tighter h-32 col-start-1 col-end-13 flex flex-row items-center justify-around">
+			<div>
+				<img class="xl" src="./assets_folder/muntu_logo.png" alt="logo da muntu" width="400px" />
 			</div>
-		</div>
-	</navbar>
+			<div class="flex flex-row items-center xl:space-x-48 sm:space-x-7 xl:text-2xl sm:text-sm">
+				<a href="#sobre" class="font-black">Sobre</a>
+				<a href="#localizacao"class="font-black">Localização</a>
 
-	<section
-		class="col-start-1 col-end-13 grid grid-cols-13 gap-5 bg-lightRed xl:h-[513px] sm:h-[300px] items-center">
-		<div class="flex flex-row col-start-2 col-end-12 xl:space-x-28 sm:space-x-14 items-center xl:p-[5rem] sm:p-[2rem]">
-			<div class="font-oswald xl:w-[425px] xl:space-y-[20px] sm:w-[212.5px] sm:space-y-[10px] tracking-tighter">
-				<p class="xl:text-4xl sm:text-2xl font-semibold">
-					Tecnologia para pequenas e médias empresas.
-				</p>
-				<p class="xl:text-2xl sm:text-xl">Transformando a tecnologia em uma aliada para o seu negócio.</p>
-				<a href="#sobre" ><button
-						class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-2xl font-bold font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
-						Saiba mais
-					</button></a>
+				<div class="flex flex-row items-center justify-center space-x-2">
+					<img class="xl" src="./assets_folder/clipboard.svg" alt="Clipboard" width="20px" />
+					<a class="font-black">(11)40393557</a>
+					<a href="https://wa.me/5511994974968">
+						<img class="xl" src="./assets_folder/logos_whatsapp-icon.svg" alt="logo whatsapp icon" width="25px" />
+					</a>
+				</div>
 			</div>
-		</div>
-	</section>
+		</navbar>
 
-
-	<div class="bg-blue w-full col-start-1 col-end-13 mt-20">
-		<section class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
-			<div
-				class="col-start-2 col-end-11 xl:flex xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6 text-4xl font-bold">
-				Ajudamos empresas a implementar tecnologia na rotina, visando
-				aumentar a eficiência de seus processos.
-				Nossa missão é descomplicar oferecendo soluções tecnológicas
-				alinhadas ao seu momento, desde a criação de planilhas automatizadas
-				até soluções mais complexas de integração de dados usando
-				computação em nuvem.
+		<section class="col-start-1 col-end-13 grid grid-cols-13 bg-lightRed xl:h-[513px] sm:h-[300px] items-center">
+			<div class="flex flex-row col-start-2 col-end-12 xl:space-x-28 sm:space-x-14 items-center xl:p-[5rem] sm:p-[2rem]">
+				<div class="font-oswald xl:w-[425px] xl:space-y-[20px] sm:w-[212.5px] sm:space-y-[10px] tracking-tighter">
+					<p class="xl:text-4xl sm:text-2xl font-semibold">
+						Tecnologia para pequenas e médias empresas.
+					</p>
+					<p class="xl:text-2xl sm:text-xl">Transformando a tecnologia em uma aliada para o seu negócio.</p>
+					<a href="#sobre" >
+						<button
+							class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg font-bold font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+							Saiba mais
+						</button>
+					</a>
+				</div>
 			</div>
 		</section>
-	</div>
 
-</body>
+
+		<section class="bg-blue w-full col-start-1 col-end-13 mt-20 py-8">
+			<div class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
+				<div
+					class="col-start-2 col-end-11 xl:flex xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6 text-4xl font-bold">
+					Ajudamos empresas a implementar tecnologia na rotina, visando
+					aumentar a eficiência de seus processos.
+					Nossa missão é descomplicar oferecendo soluções tecnológicas
+					alinhadas ao seu momento, desde a criação de planilhas automatizadas
+					até soluções mais complexas de integração de dados usando
+					computação em nuvem.
+				</div>
+				<a class="col-start-2 col-end-3" href="#sobre" >
+					<button
+						class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg  font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+						Saiba mais
+					</button>
+				</a>
+			</div>
+		</section>
+
+		<section class="bg-blue w-full col-start-1 col-end-13 mt-20 py-8">
+			<div class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
+				<div class="col-start-2 col-end-11 xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6">
+				<h1 class="text-4xl font-bold">Serviços</h1>
+					<ul class="mt-8 text-4xl list-disc">
+						<li> Relatórios Gerenciais e Operacionais automatizados </li>
+						<li> Criação de planilhas </li>
+						<li> Integração de dados </li>
+						<li> Controle de Estoque </li>
+						<li> CRM </li>
+						<li> Interfaces de inserção de dados </li>
+						<li> Treinamentos e cursos	</li>
+					</ul>
+				</div>
+				<a class="col-start-2 col-end-3" href="#sobre" >
+					<button
+						class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg  font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+						Saiba mais
+					</button>
+				</a>
+			</div>
+		</section>
+
+		<section class="bg-blue w-full col-start-1 col-end-13 mt-20 py-8">
+				<div class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
+					<div class="col-start-2 col-end-11 xl:flex xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6 text-4xl font-bold">
+					Nosso processo de adesão é simples como deve ser.
+					Entre em contato via Whatsapp
+					Agende um bate papo para entendermos sua necessidade
+					Retornamos com uma proposta em 2 dias úteis
+					Fechamos nossa parceria		
+					</div>
+					<a class="col-start-2 col-end-3" href="#sobre" >
+						<button
+							class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg  font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+							Saiba mais
+						</button>
+					</a>
+				</div>
+		</section>
+
+		<section class="bg-blue w-full col-start-1 col-end-13 mt-20 py-8">
+				<div class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
+					<div class="col-start-2 col-end-11 xl:flex xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6 text-4xl font-bold">
+					Treinamentos.
+					Muitas vezes a melhor solução é capacitar o quadro de colaboradores, e
+					você pode contar conosco para esta missão.
+					Soluções híbridas também costumam ser de grande valor, podemos
+					implementar a solução e treinar sua equipe para que possam fazer
+					customizações quando necessário.			
+					</div>
+					<a class="col-start-2 col-end-3" href="#sobre" >
+						<button
+							class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg  font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+							Saiba mais
+						</button>
+					</a>
+				</div>
+		</section>
+
+		<section class="bg-blue w-full col-start-1 col-end-13 mt-20 py-8">
+				<div class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
+					<div class="col-start-2 col-end-11 xl:flex xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6 text-4xl font-bold">
+					Dashboards.
+					Sabemos que um grande tomador de tempo dentro das empresas é
+					composto da coleta, integração e consolidação de dados e indicadores.
+					Por isso acreditamos que podemos te ajudar com o desenvolvimento de
+					Dashboards automatizados que irão poupar tempo e prover
+					informações assertivas, para que assim, a gestão possa focar no que
+					mais importa de forma despreocupada.				
+					</div>
+					<a class="col-start-2 col-end-3" href="#sobre" >
+						<button
+							class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg  font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+							Saiba mais
+						</button>
+					</a>
+				</div>
+		</section>
+
+		<section class="bg-blue w-full col-start-1 col-end-13 mt-20 py-8">
+				<div class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
+					<div class="col-start-2 col-end-11 xl:flex xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6 text-4xl font-bold">
+					Planilhas Inteligentes.
+					Uma solução clássica e de baixo custo é a criação de planilhas
+					inteligentes que facilitem o controle de seus processos. Você pode
+					contar com a Muntu, pois oferecemos variedade de possibilidades e
+					possivelmente uma delas será muito útil para o seu negócio.				
+					</div>
+					<a class="col-start-2 col-end-3" href="#sobre" >
+						<button
+							class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg  font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+							Saiba mais
+						</button>
+					</a>
+				</div>
+		</section>
+
+
+		<section class="bg-blue w-full col-start-1 col-end-13 mt-20 py-8">
+				<div class="items-center xl:mt-28 sm:mt-20 grid grid-cols-12 gap-5">
+					<div class="col-start-2 col-end-11 xl:flex xl:flex-row sm:flex-col justify-between items-center mt-12 xl:space-x-12 sm:space-x-6 text-4xl font-bold">
+					Engenharia de Dados & Analytics.
+					Dependendo do tamanho e diversidade de operações, é vantajoso ter
+					um processo de integração de dados mais complexo, que atenda áreas
+					diferentes e suas regras de negócio. Para tanto oferecemos o serviço de
+					engenharia de dados que proporciona total controle e visibilidade dos
+					dados da empresa.				
+					</div>
+					<a class="col-start-2 col-end-3" href="#sobre" >
+						<button
+							class="bg-mainYellow xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-lg  font-roboto xl:text-2xl sm:text-[12px] xl:mt-8 sm:mt-4">
+							Saiba mais
+						</button>
+					</a>
+				</div>
+		</section>
+
+	</body>
 
 </html>
