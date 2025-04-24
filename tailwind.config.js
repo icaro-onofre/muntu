@@ -5,8 +5,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                oswald: ['Oswald', 'sans-serif'],
-                roboto: ['Roboto', 'sans-serif'],
+                notosans: ['Noto Sans', 'sans-serif'],
             },
         },
         colors: {

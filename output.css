@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -717,6 +719,10 @@ video {
   margin: 0.25rem;
 }
 
+.mb-14{
+  margin-bottom: 3.5rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
@@ -844,16 +850,8 @@ video {
   height: 0.5rem;
 }
 
-.h-32{
-  height: 8rem;
-}
-
-.h-\[5000px\]{
-  height: 5000px;
-}
-
-.h-96{
-  height: 24rem;
+.h-64{
+  height: 16rem;
 }
 
 .w-1{
@@ -1400,10 +1398,6 @@ video {
 
 .justify-items-stretch{
   justify-items: stretch;
-}
-
-.gap-20{
-  gap: 5rem;
 }
 
 .gap-5{
@@ -1993,16 +1987,6 @@ video {
   padding: 0.25rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -2064,20 +2048,12 @@ video {
   vertical-align: super;
 }
 
-.font-oswald{
-  font-family: Oswald, sans-serif;
-}
-
-.font-roboto{
-  font-family: Roboto, sans-serif;
+.font-notosans{
+  font-family: Noto Sans, sans-serif;
 }
 
 .text-4xl{
   font-size: 2.881rem;
-}
-
-.font-black{
-  font-weight: 900;
 }
 
 .font-bold{
@@ -2683,6 +2659,10 @@ video {
 
   .xl\:text-2xl{
     font-size: 1.563rem;
+  }
+
+  .xl\:text-3xl{
+    font-size: 1.953rem;
   }
 
   .xl\:text-4xl{
